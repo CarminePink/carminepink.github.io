@@ -6,7 +6,7 @@
     <description>Recent content on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Sep 2019 14:01:54 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,13 +35,98 @@
     </item>
     
     <item>
-      <title>Posts</title>
+      <title></title>
       <link>http://localhost:1313/post/</link>
-      <pubDate>Thu, 19 Sep 2019 14:01:54 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/post/</guid>
       
-        <description></description>
+        <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34; /&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
+    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34; /&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+      img {
+        max-width: 100%;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;a href=&#34;&#34; target=&#34;&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;//google.com&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;http://localhost:1313/a/b/c&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;javascript:alert(1);&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;mailto:hl13886803841@sina.com&#34;&gt;发邮件&lt;/a&gt;
+    &lt;a href=&#34;tel:13886803841&#34;&gt;打电话&lt;/a&gt;
+    &lt;a href=&#34;//baidu.com&#34; target=&#34;_blank&#34;&gt;点击&lt;/a&gt;
+    &lt;a href=&#34;//baidu.com&#34; target=&#34;_self&#34;&gt;点击&lt;/a&gt;
+    &lt;a href=&#34;//baidu.com&#34; target=&#34;_top&#34;&gt;点击&lt;/a&gt;
+    &lt;a href=&#34;//baidu.com&#34; target=&#34;_parent&#34;&gt;点击&lt;/a&gt;
+    &lt;a href=&#34;#xxx&#34;&gt;点击&lt;/a&gt;
+    &lt;a href=&#34;//baidu.com&#34; target=&#34;xxx&#34;&gt;点击&lt;/a&gt;
+    &lt;iframe src=&#34;&#34; frameborder=&#34;0&#34; name=&#34;yyy&#34;&gt;&lt;/iframe&gt;
+    &lt;a href=&#34;//baidu.com&#34; target=&#34;yyy&#34;&gt;&lt;/a&gt;
+    &lt;iframe src=&#34;&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;表头&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th&gt;表头1&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;表身&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+      &lt;tfoot&gt;
+        &lt;tr&gt;
+          &lt;td&gt;表尾&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tfoot&gt;
+    &lt;/table&gt;
+    &lt;img src=&#34;&#34; alt=&#34;&#34; /&gt;
+
+    &lt;img src=&#34;1.png&#34; alt=&#34;&#34; id=&#34;xxx&#34; /&gt;
+    &lt;script&gt;
+      xxx.onload = function() {
+        console.log(&#34;success&#34;);
+      };
+      xxx.onerror = function() {
+        console.log(&#34;failed&#34;);
+        xxx.src = &#34;2.png&#34;;
+      };
+    &lt;/script&gt;
+
+    &lt;form action=&#34;http://localhost:1313/xxx&#34; method=&#34;POST&#34; autocomplete=&#34;on&#34; target=&#34;_blank&#34;&gt;
+      &lt;input type=&#34;text&#34; /&gt;
+      &lt;input type=&#34;submit&#34; /&gt;
+    &lt;/form&gt;
+
+    &lt;form action=&#34;&#34; method=&#34;POST&#34;&gt;
+      &lt;input type=&#34;submit&#34; value=&#34;提交&#34; /&gt;
+      &lt;button type=&#34;submit&#34;&gt;提交&lt;/button&gt;
+      &lt;button type=&#34;submit&#34;&gt;&lt;strong&gt;提交&lt;/strong&gt;&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;input type=&#34;text&#34; required /&gt;
+    &lt;button&gt;提交&lt;/button&gt;
+
+    &lt;select name=&#34;&#34; id=&#34;&#34;&gt;
+      &lt;option value=&#34;0&#34;&gt;- 请选择 -&lt;/option&gt;
+      &lt;option value=&#34;1&#34;&gt;数学&lt;/option&gt;
+      &lt;option value=&#34;2&#34;&gt;英语&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;textarea name=&#34;&#34; id=&#34;&#34; cols=&#34;30&#34; rows=&#34;10&#34;&gt;&lt;/textarea&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
       
     </item>
     
