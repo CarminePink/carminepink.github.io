@@ -6,7 +6,7 @@
     <description>Recent content on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 16:39:15 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,25 +35,13 @@
     </item>
     
     <item>
-      <title></title>
+      <title>Posts</title>
       <link>http://localhost:1313/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Sep 2019 16:39:15 +0800</pubDate>
       
       <guid>http://localhost:1313/post/</guid>
       
-        <description>&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-  &lt;head&gt;
-    &lt;meta charset=&#34;UTF-8&#34; /&gt;
-    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
-    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34; /&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    span
-  &lt;/body&gt;
-&lt;/html&gt;
-</description>
+        <description></description>
       
     </item>
     

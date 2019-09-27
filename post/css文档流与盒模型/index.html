@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>CSS盒模型 - 多肉的博客</title>
+  <title>《CSS文档流与盒模型》 - 多肉的博客</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="xianmin" />
-  <meta name="description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box" />
+  <meta name="description" content="CSS 文档流(Normal Flow) 在学习 CSS 之前首先要了解两个非常重要的概念，一个是文档流，另一个就是盒模型。 文档流 文档流，顾名思义，就是文档中元素的流" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.58.2" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
+<link rel="canonical" href="http://localhost:1313/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
 
 
 
@@ -57,26 +57,26 @@
 
 
 
-<meta property="og:title" content="CSS盒模型" />
-<meta property="og:description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box" />
+<meta property="og:title" content="《CSS文档流与盒模型》" />
+<meta property="og:description" content="CSS 文档流(Normal Flow) 在学习 CSS 之前首先要了解两个非常重要的概念，一个是文档流，另一个就是盒模型。 文档流 文档流，顾名思义，就是文档中元素的流" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
-<meta property="article:published_time" content="2019-09-24T14:42:45+08:00" />
-<meta property="article:modified_time" content="2019-09-24T14:42:45+08:00" />
-<meta itemprop="name" content="CSS盒模型">
-<meta itemprop="description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box">
+<meta property="og:url" content="http://localhost:1313/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
+<meta property="article:published_time" content="2019-09-27T15:36:17+08:00" />
+<meta property="article:modified_time" content="2019-09-27T15:36:17+08:00" />
+<meta itemprop="name" content="《CSS文档流与盒模型》">
+<meta itemprop="description" content="CSS 文档流(Normal Flow) 在学习 CSS 之前首先要了解两个非常重要的概念，一个是文档流，另一个就是盒模型。 文档流 文档流，顾名思义，就是文档中元素的流">
 
 
-<meta itemprop="datePublished" content="2019-09-24T14:42:45&#43;08:00" />
-<meta itemprop="dateModified" content="2019-09-24T14:42:45&#43;08:00" />
-<meta itemprop="wordCount" content="58">
+<meta itemprop="datePublished" content="2019-09-27T15:36:17&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-27T15:36:17&#43;08:00" />
+<meta itemprop="wordCount" content="918">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CSS盒模型"/>
-<meta name="twitter:description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box"/>
+<meta name="twitter:title" content="《CSS文档流与盒模型》"/>
+<meta name="twitter:description" content="CSS 文档流(Normal Flow) 在学习 CSS 之前首先要了解两个非常重要的概念，一个是文档流，另一个就是盒模型。 文档流 文档流，顾名思义，就是文档中元素的流"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -338,11 +338,11 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">CSS盒模型</h1>
+      <h1 class="post-title">《CSS文档流与盒模型》</h1>
       
       <div class="post-meta">
-        <time datetime="2019-09-24" class="post-time">
-          2019-09-24
+        <time datetime="2019-09-27" class="post-time">
+          2019-09-27
         </time>
         
         
@@ -362,7 +362,16 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#css盒模型">CSS盒模型</a></li>
+<li><a href="#css-文档流-normal-flow">CSS 文档流(Normal Flow)</a>
+<ul>
+<li><a href="#文档流">文档流</a></li>
+<li><a href="#块级元素和内联元素">块级元素和内联元素</a></li>
+<li><a href="#宽度">宽度</a></li>
+<li><a href="#高度">高度</a></li>
+<li><a href="#overflow">overflow</a></li>
+<li><a href="#如何脱离文档流">如何脱离文档流</a></li>
+</ul></li>
+<li><a href="#css-盒模型-border-box">CSS 盒模型(Border Box)</a></li>
 </ul>
 </nav>
   </div>
@@ -372,21 +381,106 @@
     <div class="post-content">
       
 
-<h1 id="css盒模型">CSS盒模型</h1>
+<h1 id="css-文档流-normal-flow">CSS 文档流(Normal Flow)</h1>
 
-<p>CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒)</p>
+<p>在学习 CSS 之前首先要了解两个非常重要的概念，一个是文档流，另一个就是盒模型。</p>
+
+<h2 id="文档流">文档流</h2>
+
+<ol>
+<li>文档流，顾名思义，就是文档中元素的流动方向，或者说是排列方向。</li>
+</ol>
+
+<h2 id="块级元素和内联元素">块级元素和内联元素</h2>
+
+<ol>
+<li>内联元素(inline),如 span 标签，是从左到右排列的，排满一行才会换行继续排列，并且一个标签的内容可能会跨行显示。</li>
+<li>块级元素(block)，如 div 标签，是从上到下排列的，并且每一个 div 标签单独占据一行，即使该 div 标签的内容很少。</li>
+<li>inline-block 元素，结合了内联元素和块级元素的特点，从左到右排列，但是一个标签的内容不会跨行显示。
+<img src="/iamges/span.png" alt="示例如图" /></li>
+</ol>
 
 <ul>
-<li>content-box</li>
+<li><p>需要注意的是，其实没有固定的内联/块级元素，因为可以人为的对其属性进行修改，比如</p>
+
+<pre><code class="language-CSS">span{display:block;}
+</code></pre></li>
 </ul>
 
-<p><img src="/images/content-box.jpg" alt="content-box" /></p>
+<p>给 span 标签修改如上属性，那么 span 标签就变成了块级元素。</p>
 
 <ul>
-<li>border-box</li>
+<li>不要在 inline 元素里写 block 元素</li>
 </ul>
 
-<p><img src="/images/border-box.jpg" alt="border-box" /></p>
+<h2 id="宽度">宽度</h2>
+
+<ol>
+<li><p>inline 元素的宽度是根据其标签内部 inline 元素内容之和决定的，不能用 width 指定宽度。比如</p>
+
+<pre><code class="language-HTML">&lt;span&gt;第一个span
+&lt;span&gt;第二个span&lt;/span&gt;
+&lt;/span&gt;
+</code></pre></li>
+</ol>
+
+<p>它的宽度就是两个 span 标签的内容之和。</p>
+
+<ol>
+<li><p>block 元素的宽度是默认的，默认 width：auto,默认就是一行能有多宽就占多宽，可以用 width 指定宽度。</p></li>
+
+<li><p>inline-block 元素的宽度默认是其内部内容之和的宽度，但是也可以使用 width 指定宽度。</p></li>
+</ol>
+
+<h2 id="高度">高度</h2>
+
+<ol>
+<li><p>inline 元素的高度是由 line-height 间接决定的，之所以是间接决定的原因是因为字体的样式也会影响 inline 元素的高度，高度与 height 无关。</p></li>
+
+<li><p>block 元素的高度是由其内部的文档流决定的，可以用 height 指定高度。比如</p>
+
+<pre><code class="language-HTML">&lt;div class=&quot;parent&quot;&gt;
+&lt;span&gt;span标签&lt;/span&gt;
+&lt;div class=&quot;demo1&quot;&gt;div标签&lt;/div&gt;
+&lt;div class=&quot;demo2&quot;&gt;div标签&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></li>
+</ol>
+
+<p>那么.parent 的高都是由其内部的所有 span/div 标签的内容共同决定的。</p>
+
+<ol>
+<li>inline-block 元素的高度和 block 元素的高度一致，特点也一样。</li>
+</ol>
+
+<ul>
+<li>如果一个 div 标签里没有内容，那么它的 height 就为 0.</li>
+</ul>
+
+<h2 id="overflow">overflow</h2>
+
+<p>当内容超出容器是，可以用 overflow 控制溢出部分的内容。</p>
+
+<pre><code class="language-CSS">overflow: visible 显示溢出部分
+overflow: hidden  隐藏溢出部分
+overflow: scroll  溢出部分有滚动条
+overflow: auto    灵活设置溢出部分(该属性用的最多)
+</code></pre>
+
+<h2 id="如何脱离文档流">如何脱离文档流</h2>
+
+<ol>
+<li>对某个元素加上 float:left/right;</li>
+
+<li><p>对某个元素进行相对/绝对定位，也即</p>
+
+<pre><code class="language-CSS">position: absolute/relative;
+</code></pre></li>
+</ol>
+
+<h1 id="css-盒模型-border-box">CSS 盒模型(Border Box)</h1>
+
+<p>详情见我的另一个<a href="http://carminepink.xyz/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/">博客</a></p>
 
     </div>
 
@@ -400,7 +494,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-09-24
+      2019-09-27
       
     </span>
   </p>
@@ -421,7 +515,7 @@
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/">
+          <a class="prev" href="/post/css%E4%B8%89%E7%A7%8D%E5%B8%83%E5%B1%80%E6%96%B9%E5%BC%8F/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -431,12 +525,12 @@
 </svg>
 
             </i>
-            <span class="prev-text nav-default">《CSS文档流与盒模型》</span>
+            <span class="prev-text nav-default">《CSS三种布局方式》</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
-          <a class="next" href="/post/%E6%B5%8B%E8%AF%95/">
-            <span class="next-text nav-default">测试</span>
+          <a class="next" href="/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/">
+            <span class="next-text nav-default">CSS盒模型</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">

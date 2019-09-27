@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>CSS盒模型 - 多肉的博客</title>
+  <title>《CSS三种布局方式》 - 多肉的博客</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="xianmin" />
-  <meta name="description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box" />
+  <meta name="description" content="CSS 布局-float 布局 float 布局步骤 给子元素加上 float:left/right; 给父元素加上.clearfix (这一步非常重要) 示例： HTML 中的代码如下 &amp;lt;header class=&amp;quot;clearfix&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;demo1&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;demo2&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/header&amp;gt; CSS 中的代码如" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.58.2" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
+<link rel="canonical" href="http://localhost:1313/post/css%E4%B8%89%E7%A7%8D%E5%B8%83%E5%B1%80%E6%96%B9%E5%BC%8F/" />
 
 
 
@@ -57,26 +57,26 @@
 
 
 
-<meta property="og:title" content="CSS盒模型" />
-<meta property="og:description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box" />
+<meta property="og:title" content="《CSS三种布局方式》" />
+<meta property="og:description" content="CSS 布局-float 布局 float 布局步骤 给子元素加上 float:left/right; 给父元素加上.clearfix (这一步非常重要) 示例： HTML 中的代码如下 &lt;header class=&quot;clearfix&quot;&gt; &lt;div class=&quot;demo1&quot;&gt;&lt;/div&gt; &lt;div class=&quot;demo2&quot;&gt;&lt;/div&gt; &lt;/header&gt; CSS 中的代码如" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
-<meta property="article:published_time" content="2019-09-24T14:42:45+08:00" />
-<meta property="article:modified_time" content="2019-09-24T14:42:45+08:00" />
-<meta itemprop="name" content="CSS盒模型">
-<meta itemprop="description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box">
+<meta property="og:url" content="http://localhost:1313/post/css%E4%B8%89%E7%A7%8D%E5%B8%83%E5%B1%80%E6%96%B9%E5%BC%8F/" />
+<meta property="article:published_time" content="2019-09-27T16:39:15+08:00" />
+<meta property="article:modified_time" content="2019-09-27T16:39:15+08:00" />
+<meta itemprop="name" content="《CSS三种布局方式》">
+<meta itemprop="description" content="CSS 布局-float 布局 float 布局步骤 给子元素加上 float:left/right; 给父元素加上.clearfix (这一步非常重要) 示例： HTML 中的代码如下 &lt;header class=&quot;clearfix&quot;&gt; &lt;div class=&quot;demo1&quot;&gt;&lt;/div&gt; &lt;div class=&quot;demo2&quot;&gt;&lt;/div&gt; &lt;/header&gt; CSS 中的代码如">
 
 
-<meta itemprop="datePublished" content="2019-09-24T14:42:45&#43;08:00" />
-<meta itemprop="dateModified" content="2019-09-24T14:42:45&#43;08:00" />
-<meta itemprop="wordCount" content="58">
+<meta itemprop="datePublished" content="2019-09-27T16:39:15&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-27T16:39:15&#43;08:00" />
+<meta itemprop="wordCount" content="1890">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CSS盒模型"/>
-<meta name="twitter:description" content="CSS盒模型 CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒) content-box border-box"/>
+<meta name="twitter:title" content="《CSS三种布局方式》"/>
+<meta name="twitter:description" content="CSS 布局-float 布局 float 布局步骤 给子元素加上 float:left/right; 给父元素加上.clearfix (这一步非常重要) 示例： HTML 中的代码如下 &lt;header class=&quot;clearfix&quot;&gt; &lt;div class=&quot;demo1&quot;&gt;&lt;/div&gt; &lt;div class=&quot;demo2&quot;&gt;&lt;/div&gt; &lt;/header&gt; CSS 中的代码如"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -338,11 +338,11 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">CSS盒模型</h1>
+      <h1 class="post-title">《CSS三种布局方式》</h1>
       
       <div class="post-meta">
-        <time datetime="2019-09-24" class="post-time">
-          2019-09-24
+        <time datetime="2019-09-27" class="post-time">
+          2019-09-27
         </time>
         
         
@@ -362,7 +362,22 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#css盒模型">CSS盒模型</a></li>
+<li><a href="#css-布局-float-布局">CSS 布局-float 布局</a></li>
+<li><a href="#css-flex-布局">CSS-flex 布局</a>
+<ul>
+<li><a href="#使用-flex-布局的步骤">使用 flex 布局的步骤</a></li>
+<li><a href="#container-常用的属性">container 常用的属性</a></li>
+<li><a href="#flex-items-的属性">flex items 的属性</a></li>
+<li><a href="#经验">经验</a></li>
+</ul></li>
+<li><a href="#css-grid-布局-二维布局">CSS-Grid 布局(二维布局)</a>
+<ul>
+<li><a href="#使用-grid-布局的步骤">使用 grid 布局的步骤</a></li>
+<li><a href="#核心用法-使用-grid-template-areas-先把所有的区域划分出来">核心用法:使用 grid-template-areas 先把所有的区域划分出来</a></li>
+<li><a href="#grid-template-rows-和-grid-template-columns-以及-grid-template">grid-template-rows 和 grid-template-columns 以及 grid-template</a></li>
+<li><a href="#grid-gap-设置空隙">grid-gap(设置空隙)</a></li>
+<li><a href="#grid-area-指定一块区域">grid-area(指定一块区域)</a></li>
+</ul></li>
 </ul>
 </nav>
   </div>
@@ -372,21 +387,383 @@
     <div class="post-content">
       
 
-<h1 id="css盒模型">CSS盒模型</h1>
-
-<p>CSS盒模型分为两种，一种是content-box(内容盒)，另一种是border-box(边框盒)</p>
+<h1 id="css-布局-float-布局">CSS 布局-float 布局</h1>
 
 <ul>
-<li>content-box</li>
+<li>float 布局步骤</li>
 </ul>
 
-<p><img src="/images/content-box.jpg" alt="content-box" /></p>
+<ol>
+<li>给子元素加上 float:left/right;</li>
+
+<li><p>给父元素加上.clearfix (这一步非常重要)
+示例：
+HTML 中的代码如下</p>
+
+<pre><code class="language-HTML">&lt;header class=&quot;clearfix&quot;&gt;
+&lt;div class=&quot;demo1&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;demo2&quot;&gt;&lt;/div&gt;
+&lt;/header&gt;
+</code></pre></li>
+</ol>
+
+<p>CSS 中的代码如下</p>
+
+<pre><code class="language-CSS">*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header{
+  border: 1px solid black;
+}
+.clearfix:after{
+  display:block;
+  content:'';
+  clear:both;
+}
+
+.demo1{
+  border: 1px solid red;
+  width:50px;
+  height:50px;
+  float:left
+}
+.demo2{
+  border: 1px solid blue;
+  width:50px;
+  height:50px;
+  float:left
+}
+</code></pre>
+
+<p><img src="images/float.png" alt="这是效果图" />
+两个子元素 div 加上了 float:left 之后，它们就脱离了文档流，成为了浮动元素，这时候父元素 header 的高度就为 0 了，因为它没有内容了，所以一定要加上</p>
+
+<pre><code class="language-CSS">.clearfix:after{
+  display:block;
+  content:'';
+  clear:both;
+}
+</code></pre>
+
+<p>这样父元素才能包裹住他的子元素们(浮动元素)。</p>
 
 <ul>
-<li>border-box</li>
+<li><p>一般 float 布局是在 PC 端才会使用的，而且 float 布局不做响应式的，因为不会用在手机上。</p></li>
+
+<li><p>float 布局可以用来做两栏布局，三栏布局，四栏布局&hellip;以及平均布局</p></li>
 </ul>
 
-<p><img src="/images/border-box.jpg" alt="border-box" /></p>
+<p>值得一提的是当用 float 布局实现平均布局的时候，通常要用到负 margin，下面是原因。
+<img src="/images/margin.jpg" alt="示图" /></p>
+
+<ol>
+<li>此时若想让一个 image 图片正好占满 imagelist，如果不用负 margin 是无法实现的，因为 margin-right:12px; 会让第四张 image 多出来 12px，这时候浏览器会自动把它排列到下一行，这样就不符合我们的预期效果。</li>
+
+<li><p>解决方法是在四个 image 外面套一个空的 div 标签，该 div 的样式加上一个</p>
+
+<pre><code class="language-CSS">div{
+margin-right:-12px;
+}
+</code></pre></li>
+</ol>
+
+<p>这样就可以解决问题，让四个 image 完美的实现平均布局。</p>
+
+<h1 id="css-flex-布局">CSS-flex 布局</h1>
+
+<ul>
+<li><p>在 flex 布局之前，我们的了解两个属性，一个是 container(容器)，也即父元素。另一个是 items,也即子元素。</p></li>
+
+<li><p>flex 布局更为灵活，常用作手机端页面的布局。</p></li>
+</ul>
+
+<h2 id="使用-flex-布局的步骤">使用 flex 布局的步骤</h2>
+
+<ol>
+<li>选择一个父元素，改变其 display:flex/inline-flex;这样该父元素就成了一个容器 container</li>
+<li>那么它的所有子元素就成为了 items</li>
+</ol>
+
+<h2 id="container-常用的属性">container 常用的属性</h2>
+
+<ol>
+<li><p>flex-direction (改变 items 的流动方向)</p>
+
+<pre><code class="language-CSS">.container{
+flex-direction: cow/column/cow-reverse/column-reverse;
+}
+</code></pre></li>
+
+<li><p>flex-wrap (改变折行,也即是否换行)</p>
+
+<pre><code class="language-CSS">.container{
+flex-wrap: wrap/nowrap/wrap-reverse;
+}
+</code></pre></li>
+</ol>
+
+<p>wrap 为换行，nowrap 为不换行。</p>
+
+<ol>
+<li><p>justify-content (主轴对齐方式,默认主轴是横轴，除非用 flex-direction 改变了方向。)</p>
+
+<pre><code class="language-CSS">.container{
+justify-content: flex-start/flex-end/center/stretch/space-between/space-around/space-stretch;
+}
+</code></pre></li>
+</ol>
+
+<p>这些属性的效果自己敲一遍就都记住了。</p>
+
+<ol>
+<li><p>align-items (次轴对齐方式,默认次轴是纵轴。)</p>
+
+<pre><code class="language-CSS">.container{
+align-items: flex-start/flex-end/center/stretch/baseline;
+}
+</code></pre></li>
+
+<li><p>align-content (控制多行之间的间隔有多远)</p>
+
+<pre><code class="language-CSS">.container{
+align-content: flex-start/flex-end/center/stretch/space-between/space-around/space-stretch;
+}
+</code></pre></li>
+</ol>
+
+<ul>
+<li><p>flex-wrap 和 flex-direction 经常一起用，可以缩写为 flex-flow</p>
+
+<pre><code class="language-CSS">.container{
+flex-flow: row wrap;
+}
+</code></pre></li>
+</ul>
+
+<p>第一个参数是 flex-direction 的值，第二个参数是 flex-wrap 的值。</p>
+
+<h2 id="flex-items-的属性">flex items 的属性</h2>
+
+<ol>
+<li><p>order (改变 items 的排列的先后顺序，order 越大，越靠后,order 的默认值是 0)</p>
+
+<pre><code class="language-CSS">.item{
+order:0
+}
+</code></pre></li>
+</ol>
+
+<p>order 可以为负值，这样就会靠前显示。</p>
+
+<ol>
+<li><p>flex-grow (用来为 item 分配剩下的多余空间，默认值是 0，0 也即不分配)</p>
+
+<pre><code class="language-CSS">.item{
+flex-grow: 1
+}
+</code></pre></li>
+</ol>
+
+<p>flex-grow 的值越大，分配到的多余空间就越多。</p>
+
+<ol>
+<li><p>flex-shrink (当用户缩小界面，空间不够时，用来控制如何变瘦的)</p>
+
+<pre><code class="language-CSS">.item{
+flex-shrink:1;  默认值
+flex-shrink:0;  为0时表示不会变瘦，铁公鸡一个
+}
+</code></pre></li>
+
+<li><p>align-self (单独为某一个 item 设置纵向的对其方式)</p>
+
+<pre><code class="language-CSS">.item{
+align-self:flex-start/flex-end/center/stretch/baseline;
+}
+</code></pre></li>
+</ol>
+
+<h2 id="经验">经验</h2>
+
+<ul>
+<li>flex 布局基本可以满足所有需求。</li>
+
+<li><p>如果一个块级元素的宽度用 width 指定了。</p>
+
+<pre><code class="language-CSS">.div{
+margin-left:auto;
+margin-right:auto;
+}
+</code></pre></li>
+</ul>
+
+<p>上面这两句代码即可让其居中。
+当然你也可以用下面两种方式，也即 flex 的布局让其居中。</p>
+
+<pre><code class="language-CSS">.container{
+    justify-content:center;
+
+    align-items:center;
+}
+</code></pre>
+
+<h1 id="css-grid-布局-二维布局">CSS-Grid 布局(二维布局)</h1>
+
+<p>grid 布局将会是未来的趋势，因为它的功能更加强大，更加灵活。</p>
+
+<ul>
+<li>grid 布局也有 container 和 items，它和 flex 布局这一方面还是很像的。</li>
+</ul>
+
+<h2 id="使用-grid-布局的步骤">使用 grid 布局的步骤</h2>
+
+<p>和使用 flex 布局很像</p>
+
+<ol>
+<li>选择一个父元素，改变其 display:grid/inline-grid;这样该父元素就成了一个容器 container</li>
+<li>那么它的所有子元素就成为了 items</li>
+</ol>
+
+<h2 id="核心用法-使用-grid-template-areas-先把所有的区域划分出来">核心用法:使用 grid-template-areas 先把所有的区域划分出来</h2>
+
+<p>例如我现在想划分 5 个区域，分别是 header、aside、main、ad、footer</p>
+
+<p>HTML 代码如下</p>
+
+<pre><code class="language-HTML">&lt;body&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;header&gt;header&lt;/header&gt;
+    &lt;aside&gt;aside&lt;/aside&gt;
+    &lt;main&gt;main&lt;/main&gt;
+    &lt;div class=&quot;ad&quot;&gt;ad&lt;/div&gt;
+    &lt;footer&gt;footer&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p>CSS 代码如下</p>
+
+<pre><code class="language-CSS">*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  display:grid;
+  grid-gap:5px;
+  grid-template-columns:50px auto 50px;
+  grid-template-rows:50px 200px 50px;
+  grid-template-areas:
+    &quot;header header header&quot;
+    &quot;aside main ad&quot;
+    &quot;footer footer footer&quot;
+}
+.container&gt;*{
+  border: 1px solid blue;
+}
+.container&gt;header{
+  grid-area:header;
+}
+.container&gt;aside{
+  grid-area:aside
+}
+.container&gt;main{
+  grid-area:main;
+}
+.container&gt;.ad{
+  grid-area:ad;
+}
+.container&gt;footer{
+  grid-area:footer;
+}
+</code></pre>
+
+<p><img src="/../../static/images/grid.png" alt="最后的效果图如下" /></p>
+
+<p>从上面的代码和效果图可以看出，</p>
+
+<ol>
+<li>我先是在父元素 container 里面用 grid-template-areas 划分了一个三行三列的区域，
+其中第一行所有区域都叫 header，第二行第一列区域叫 aside，第二行第二列区域叫 main，第二行第三列区域叫 ad，第三行所有区域都叫 footer。</li>
+<li>然后我在对应的子元素中用 grid-area:区域名; 为其分配其中的某一块区域，这样整个布局就布置好了。</li>
+</ol>
+
+<h2 id="grid-template-rows-和-grid-template-columns-以及-grid-template">grid-template-rows 和 grid-template-columns 以及 grid-template</h2>
+
+<ol>
+<li><p>grid-template-rows 创建/控制行</p>
+
+<pre><code class="language-CSS">.container{
+grid-template-rows: 40px auto 40px 40px;
+}
+</code></pre></li>
+</ol>
+
+<p>创建了 4 行，高度分别是 40px、auto、40px、40px</p>
+
+<ol>
+<li><p>grid-template-columns 创建/控制列</p>
+
+<pre><code class="language-CSS">.container{
+grid-template-columns: 40px auto 40px 40px;
+}
+</code></pre></li>
+</ol>
+
+<p>创建了 4 列，宽度分别是 40px、auto、40px、40px</p>
+
+<ol>
+<li><p>grid-template
+grid-template 是 grid-template-rows 和 grid-template-columns 的缩写形式。</p>
+
+<pre><code class="language-CSS">.container{
+grid-template: 50% 50% / 100px 100px
+}
+</code></pre></li>
+</ol>
+
+<p>上面的代码表明创建了两行，每行高度占 50%，同时创建了两列，每列宽度占 100px。</p>
+
+<h2 id="grid-gap-设置空隙">grid-gap(设置空隙)</h2>
+
+<p>1.设置所有元素之间的空隙</p>
+
+<pre><code class="language-CSS">.container{
+    grid-gap:10px
+}
+</code></pre>
+
+<ol>
+<li><p>指定行与行或者列与列之间的空隙</p>
+
+<pre><code class="language-CSS">.container{
+grid-column-gap:10px;
+
+grid-row-gap:10px;
+}
+</code></pre></li>
+</ol>
+
+<h2 id="grid-area-指定一块区域">grid-area(指定一块区域)</h2>
+
+<p>准确的说，grid-area 是 grid-row 和 grid-column 的缩写
+例如</p>
+
+<pre><code class="language-CSS">.container{
+    grid-area: 1/1/4/6;
+}
+</code></pre>
+
+<p>上面的代码 第一个参数 1 表明 grid-row-start，行的第 1 根线。第二个参数 1 是 grid-column-start，列的第 1 根线。
+第三个参数 4 是 grid-row-end，行的第 4 根线。最后一个 6 是 grid-column-end，列的第 6 根线。
+所以整个代码就是指定了一块 3 行 5 列的区域。</p>
+
+<ul>
+<li>grid 适合不规则布局。</li>
+</ul>
 
     </div>
 
@@ -400,7 +777,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-09-24
+      2019-09-27
       
     </span>
   </p>
@@ -421,22 +798,9 @@
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">《CSS文档流与盒模型》</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/%E6%B5%8B%E8%AF%95/">
-            <span class="next-text nav-default">测试</span>
+          <a class="next" href="/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/">
+            <span class="next-text nav-default">《CSS文档流与盒模型》</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">

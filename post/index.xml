@@ -6,10 +6,28 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 Sep 2019 14:42:45 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 16:39:15 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《CSS三种布局方式》</title>
+      <link>http://localhost:1313/post/css%E4%B8%89%E7%A7%8D%E5%B8%83%E5%B1%80%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Fri, 27 Sep 2019 16:39:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/css%E4%B8%89%E7%A7%8D%E5%B8%83%E5%B1%80%E6%96%B9%E5%BC%8F/</guid>
+      <description>CSS 布局-float 布局 float 布局步骤 给子元素加上 float:left/right; 给父元素加上.clearfix (这一步非常重要) 示例： HTML 中的代码如下 &amp;lt;header class=&amp;quot;clearfix&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;demo1&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;demo2&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/header&amp;gt; CSS 中的代码如</description>
+    </item>
+    
+    <item>
+      <title>《CSS文档流与盒模型》</title>
+      <link>http://localhost:1313/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Fri, 27 Sep 2019 15:36:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/css%E6%96%87%E6%A1%A3%E6%B5%81%E4%B8%8E%E7%9B%92%E6%A8%A1%E5%9E%8B/</guid>
+      <description>CSS 文档流(Normal Flow) 在学习 CSS 之前首先要了解两个非常重要的概念，一个是文档流，另一个就是盒模型。 文档流 文档流，顾名思义，就是文档中元素的流</description>
+    </item>
     
     <item>
       <title>CSS盒模型</title>
