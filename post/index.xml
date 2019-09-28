@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Sep 2019 16:39:15 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2019 14:23:05 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《CSS动画》</title>
+      <link>http://localhost:1313/post/css%E5%8A%A8%E7%94%BB/</link>
+      <pubDate>Sat, 28 Sep 2019 14:23:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/css%E5%8A%A8%E7%94%BB/</guid>
+      <description>CSS 动画 首先我们的先了解浏览器的渲染过程。 浏览器的渲染过程 根据 HTML 构建 HTML 树(DOM) 根据 CSS 构建 CSS 树(CSSOM) 将上面两个树合并成一棵渲染树(r</description>
+    </item>
     
     <item>
       <title>《CSS三种布局方式》</title>
