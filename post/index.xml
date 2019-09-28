@@ -57,15 +57,6 @@
     </item>
     
     <item>
-      <title>测试</title>
-      <link>http://localhost:1313/post/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Fri, 20 Sep 2019 21:47:05 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E6%B5%8B%E8%AF%95/</guid>
-      <description>测试测试测试</description>
-    </item>
-    
-    <item>
       <title>《HTML常用标签》</title>
       <link>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Fri, 20 Sep 2019 16:31:44 +0800</pubDate>
@@ -99,24 +90,6 @@
       
       <guid>http://localhost:1313/post/%E7%BB%83%E4%B9%A0%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</guid>
       <description>练习插入图片 这里是正文</description>
-    </item>
-    
-    <item>
-      <title>第二篇博客二次修改</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E4%BA%8C%E6%AC%A1%E4%BF%AE%E6%94%B9/</link>
-      <pubDate>Mon, 16 Sep 2019 15:53:32 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E4%BA%8C%E6%AC%A1%E4%BF%AE%E6%94%B9/</guid>
-      <description>再次尝试上传新博客 第三次尝试了，希望这次能成功。</description>
-    </item>
-    
-    <item>
-      <title>第二篇博客改</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%94%B9/</link>
-      <pubDate>Mon, 16 Sep 2019 15:39:37 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%94%B9/</guid>
-      <description>我的第二篇博客 刚才上传第二篇博客到GitHub是失败了，这里再次尝试一遍。</description>
     </item>
     
     <item>
