@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Sep 2019 15:26:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2019 22:13:25 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《浅析URL》</title>
+      <link>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</link>
+      <pubDate>Sat, 28 Sep 2019 22:13:25 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</guid>
+      <description>IP(Internet Protocal) IP 协议约定了两件事 如何定位一台设备 如何封装数据报文，以跟其他设备交流。 IP 又分内网 IP 和外网 IP 内网和外网是依靠路由器链接的，从内网到外网需要</description>
+    </item>
     
     <item>
       <title>《CSS定位与层叠上下文》</title>
