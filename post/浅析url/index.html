@@ -69,7 +69,7 @@
 
 <meta itemprop="datePublished" content="2019-09-28T22:13:25&#43;08:00" />
 <meta itemprop="dateModified" content="2019-09-28T22:13:25&#43;08:00" />
-<meta itemprop="wordCount" content="949">
+<meta itemprop="wordCount" content="1125">
 
 
 
@@ -372,6 +372,10 @@
 <li><a href="#url-uniform-resource-locator">URl(Uniform Resource Locator)</a>
 <ul>
 <li><a href="#url-举例">URL 举例</a></li>
+<li><a href="#跨域">跨域</a>
+<ul>
+<li><a href="#同源策略">同源策略</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -485,6 +489,21 @@ com 是顶级域名，cctv 是二级域名，www 是三级域名。</p></li>
 <li>锚点虽然看起来可以是中文，但是实际上是不支持中文的，因为机器会自动把中文转换成机器能够识别的语言。</li>
 <li>锚点(#~)是不能在开发者工具 network 面板中查看到的，因为锚点不会传给服务器。</li>
 </ul>
+
+<h2 id="跨域">跨域</h2>
+
+<p>所谓的跨域，举例说明：</p>
+
+<ul>
+<li><p>如果 A 页面和 B 页面的协议、域名、端口号、子域名有一个不一样，那么两个网页所进行的访问行动都是跨域的，而浏览器为了安全问题起见，一般都对跨域访问进行了限制，不允许跨域访问其他页面的资源。
+注意！！！</p></li>
+
+<li><p>其实跨域限制访问，是浏览器的限制，就是因为浏览器的同源策略造成的。</p></li>
+</ul>
+
+<h3 id="同源策略">同源策略</h3>
+
+<p>是指协议、域名、端口号都要相同，有一个不相同就会产生跨域。</p>
 
     </div>
 
