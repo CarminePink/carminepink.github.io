@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Oct 2019 21:39:39 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2019 15:35:17 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《JS语法》</title>
+      <link>http://localhost:1313/post/js%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Sun, 13 Oct 2019 15:35:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js%E8%AF%AD%E6%B3%95/</guid>
+      <description>表达式与语句 表达式 先举几个例子 1. 1+2的表达式的值为3 2. add(1,2)表达式的值为函数的返回值 3. console表达式的值为函数本身，因为你</description>
+    </item>
     
     <item>
       <title>《JavaScript的诞生》</title>
