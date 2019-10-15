@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Oct 2019 15:35:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 16:57:12 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《JS对象基本用法》</title>
+      <link>http://localhost:1313/post/js%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Tue, 15 Oct 2019 16:57:12 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/js%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      <description>JS 对象 定义 无序的数据集合 键值对的集合 写法 let obj = { &#39;name&#39;: &#39;frank&#39;, &#39;age&#39;:18} let obj = new Object({&#39;name&#39;: &#39;frank&#39;, &#39;age&#39;:18}) 需要注意的是要和下面的代码区分开来 { foo:&#39;a&#39;; } 这不是一个对象，foo 只是一个 label</description>
+    </item>
     
     <item>
       <title>《JS语法》</title>
