@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Oct 2019 21:40:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 21:24:07 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《DOM编程》</title>
+      <link>http://localhost:1313/post/dom%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Thu, 31 Oct 2019 21:24:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/dom%E7%BC%96%E7%A8%8B/</guid>
+      <description>什么是 DOM JS 用 document 操纵网页，这就是 Document Object Model 文档对象模型，简称 DOM。 常见的 DOM 操作 API 获取元素的 API 首先我们要明白，元素也叫标签，叫法不同而已。 window.idxxx 或者直</description>
+    </item>
     
     <item>
       <title>《JS对象的分类》</title>
