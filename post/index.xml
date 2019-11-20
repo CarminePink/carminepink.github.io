@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Oct 2019 21:24:07 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 20:36:49 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《JQuery设计模式》</title>
+      <link>http://localhost:1313/post/jquery%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Tue, 19 Nov 2019 20:36:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/jquery%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
+      <description>jQuery 是目前使用最广泛的 JavaScript 库了，所以我认为学习 jQuery 函数库是十分重要的。 什么是 jQuery jQuery 的设计思想就是： window.jQuery 是提供给我们的一个全局函数 jQuery(&amp;lsq</description>
+    </item>
     
     <item>
       <title>《DOM编程》</title>
