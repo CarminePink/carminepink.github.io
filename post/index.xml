@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Dec 2019 15:52:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2020 16:50:53 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《浅析MVC》</title>
+      <link>http://localhost:1313/post/%E6%B5%85%E6%9E%90mvc/</link>
+      <pubDate>Wed, 19 Feb 2020 16:50:53 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90mvc/</guid>
+      <description>MVC 是什么 我们写代码为什么需要用到 MVC 设计模式呢？原因是所有页面都可以用 MVC 来优化代码结构。那么 MVC 设计模式又是什么呢？大概可以用以下四点说明什么是</description>
+    </item>
     
     <item>
       <title>《正则表达式》</title>
@@ -26,7 +35,7 @@
       <pubDate>Tue, 03 Dec 2019 22:23:25 +0800</pubDate>
       
       <guid>http://localhost:1313/post/promise%E8%A7%A3%E5%86%B3%E5%BC%82%E6%AD%A5%E9%97%AE%E9%A2%98/</guid>
-      <description></description>
+      <description>待更新</description>
     </item>
     
     <item>
