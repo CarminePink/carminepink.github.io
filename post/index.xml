@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 多肉的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 Feb 2020 16:50:53 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 16:09:20 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《Vue全解》</title>
+      <link>http://localhost:1313/post/vue%E5%85%A8%E8%A7%A3/</link>
+      <pubDate>Mon, 24 Feb 2020 16:09:20 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/vue%E5%85%A8%E8%A7%A3/</guid>
+      <description>Vue 的两种版本 Vue 有两个版本，分别是完整版和非完整版(也叫运行时版)，完整版对应引入的文件后缀为 vue.js,非完整版对应引入的文件后缀为 vue</description>
+    </item>
     
     <item>
       <title>《浅析MVC》</title>
@@ -180,15 +189,6 @@
       
       <guid>http://localhost:1313/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%9F%E5%90%8D%E8%B4%AD%E4%B9%B0%E7%9A%84%E6%80%BB%E7%BB%93/</guid>
       <description>个人总结： 首先安装Hugo，把Hugo.exe放到D盘的一个目录下，再将该目录的路径添加到环境变量PATH中去。 到Hugo官网点击Quick</description>
-    </item>
-    
-    <item>
-      <title>开博大吉</title>
-      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
-      <pubDate>Mon, 16 Sep 2019 14:37:41 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>大家好 这是我的第一篇博客，也恭喜我自己开通了博客，希望以后能够在博客上和大家分享我自己学到的知识！</description>
     </item>
     
   </channel>
